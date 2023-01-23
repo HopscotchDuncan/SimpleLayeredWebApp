@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 17.4.33110.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleLayeredWebApp", "SimpleLayeredWebApp\SimpleLayeredWebApp.csproj", "{90A3D769-C1A5-45BF-980D-DEC5730AC098}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0573F770-6AE1-4883-930B-86F8B05B807B} = {0573F770-6AE1-4883-930B-86F8B05B807B}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Backend", "Backend\Backend.csproj", "{0573F770-6AE1-4883-930B-86F8B05B807B}"
 EndProject

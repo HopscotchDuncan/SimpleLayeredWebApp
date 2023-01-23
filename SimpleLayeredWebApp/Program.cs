@@ -1,9 +1,15 @@
+using Backend;
+FactorialCalculator calculator = new FactorialCalculator();
+int result = calculator.factorialRecursive(6);
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 builder.Services.AddRazorPages();
 
 var app = builder.Build();
+
+app.MapGet("/", () => result);
 
 // Configure the HTTP request pipeline.
 if (!app.Environment.IsDevelopment())
